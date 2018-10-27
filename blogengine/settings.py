@@ -26,7 +26,7 @@ SECRET_KEY = 'a#q(o-+pjde9t%k$zf&olj&o@br311@0bn27!zg#0i0if4#*aj'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'talisman701.pythonanywhere.com',
+    '.talisman701.pythonanywhere.com',
 ]
 
 
