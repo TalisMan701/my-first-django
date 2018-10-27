@@ -26,7 +26,8 @@ SECRET_KEY = 'a#q(o-+pjde9t%k$zf&olj&o@br311@0bn27!zg#0i0if4#*aj'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.talisman701.pythonanywhere.com',
+    'talisman701.pythonanywhere.com',
+    '127.0.0.1',
 ]
 
 
@@ -108,9 +109,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Yekaterinburg'
 
 USE_I18N = True
 
@@ -123,3 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
