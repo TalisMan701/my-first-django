@@ -25,7 +25,9 @@ SECRET_KEY = 'a#q(o-+pjde9t%k$zf&olj&o@br311@0bn27!zg#0i0if4#*aj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'talisman701.pythonanywhere.com',
+]
 
 
 # Application definition
