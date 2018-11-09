@@ -1,0 +1,45 @@
+{%load staticfiles%}
+body {
+	font-family: Spectral SC, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+/*	background-image: url("{% static 'img/back.jpg'%}") no-repeat center top / cover;*/
+		background: url(/static/img/back.jpg) no-repeat center top / cover;
+}
+#titles {
+	padding-top: 250px;
+	font-size: 90px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#text__1 {
+	padding-top: 250px;
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#text__2 {
+	padding-top: 330px;
+	font-size: 90px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#vk {
+	padding-top: 30px;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
